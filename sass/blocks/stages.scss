@@ -1,0 +1,132 @@
+.stages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.slider nav {
+  position: relative;
+  padding-left: 9px;
+  padding-bottom: 4px;
+  text-align: right;
+}
+
+.slider nav::after {
+  position: absolute;
+  top: 3px;
+  right: -45px;
+  width: 1px;
+  height: 100%;
+  content: '';
+  background-color: #e36c25;
+}
+
+.slider nav li {
+  margin-bottom: 21px;
+}
+
+.slider nav a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  position: relative;
+  display: block;
+  color: #e36c25;
+}
+
+.slider nav a::after {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  right: -56px;
+  width: 23px;
+  height: 23px;
+  content: '';
+  -webkit-transform: translateY(-9px);
+  -ms-transform: translateY(-9px);
+  transform: translateY(-9px);
+  border-radius: 50%;
+  background-color: #e36c25;
+}
+
+.slider nav .active {
+  color: #000;
+}
+
+.slider nav .active::after {
+  background-color: #000;
+}
+
+.slide {
+  width: 500px;
+  padding: 26px 20px 0 20px;
+  margin-bottom: 36px;
+  background-color: #e6e6e6;
+}
+
+.slide p {
+  margin-bottom: 18px;
+}
+
+.slide img {
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+
+.slide figcaption {
+  margin-bottom: 6px;
+  color: #636363;
+}
+
+.slide a {
+  text-decoration: underline;
+  color: #e36c25;
+}
+
+.last-stage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.last-stage b {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 28px;
+  padding: 17px 30px;
+  color: #fff;
+  background-color: #e36c25;
+}
+
+.last-stage figure {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.last-stage figure:first-of-type::before {
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  width: 50%;
+  content: '';
+  transform: translateY(-20px);
+  border: 1px solid #e36c25;
+}
+
+.last-stage figcaption {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 2px;
+  text-align: center;
+}

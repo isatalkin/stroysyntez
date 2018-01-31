@@ -1,0 +1,67 @@
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+body {
+  font-family: 'Gotham Pro', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h2 {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.hr-box {
+  width: 100%;
+  text-align: center;
+}
+
+.hr {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 33px;
+  height: 42px;
+  padding: 0 10px;
+  text-align: center;
+  border: 0;
+  background-color: #fff;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 5px -123px;
+}
+
+.hr-box::after {
+  position: relative;
+  z-index: 5;
+  top: -26px;
+  display: block;
+  content: '';
+  border-bottom: 1px solid #e6e6e6;
+}

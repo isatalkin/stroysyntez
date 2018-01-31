@@ -1,0 +1,96 @@
+footer .wrapper {
+  display: flex;
+}
+
+.footer-logo {
+  width: 300px;
+  margin-right: auto;
+  margin-bottom: 5px;
+
+}
+
+.footer-logo figcaption {
+  padding-left: 6px;
+}
+
+.footer-nav {
+  margin-top: 14px;
+}
+
+.footer-nav a {
+  display: block;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+footer .contacts {
+  margin-top: 16px;
+  margin-right: 16px;
+  margin-left: auto;
+}
+
+footer .contacts p {
+  margin-bottom: 20px;
+}
+
+footer .contacts span {
+  font-size: 24px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+footer .contacts a {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 11px;
+  text-indent: -5000px;
+  background-color: #e36c25;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -1px -280px;
+}
+
+.social .fb {
+  background-position: 8px -170px;
+}
+
+.social .inst {
+  background-position: 1 -203px;
+}
+
+.social .yt {
+  background-position: -1px -306px;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  color: #fff;
+  background-color: #e36c25;
+}
+
+.footer-bottom .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #fff;
+}

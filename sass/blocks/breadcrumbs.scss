@@ -1,0 +1,15 @@
+.breadcrumbs ul {
+  display: flex;
+}
+
+.breadcrumbs li {
+  font-size: 13px;
+  margin-right: 15px;
+  padding: 18px 0;
+}
+
+.breadcrumbs a {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #e36c25;
+}

@@ -1,0 +1,67 @@
+.banner {
+  height: 560px;
+  background-image: url(../img/design-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center -43px;
+}
+
+.banner .wrapper {
+  position: relative;
+}
+
+.banner-parameters {
+  position: absolute;
+  top: 66px;
+  left: 9;
+  width: 300px;
+  padding: 29px 25px 20px 27px;
+  background-color: #fff;
+}
+
+.banner h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 27px;
+}
+
+.banner li {
+  position: relative;
+  margin-bottom: 13px;
+  padding-left: 39px;
+}
+
+.banner li::before {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  content: '';
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+}
+
+.banner li:nth-child(1)::before {
+  width: 19px;
+  background-position: -6px -5px;
+}
+
+.banner li:nth-child(2)::before {
+  background-position: -5px -34px;
+}
+
+.banner li:nth-child(3)::before {
+  background-position: -6px -64px;
+}
+
+.banner li:nth-child(4)::before {
+  width: 19px;
+  background-position: -6px -93px;
+}
+
+.banner a {
+  margin-left: 5px;
+  text-decoration: underline;
+  color: #e36c25;
+}
